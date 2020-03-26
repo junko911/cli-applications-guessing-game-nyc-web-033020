@@ -1,4 +1,3 @@
-
 def run_guessing_game
     input = gets.chomp
     num = rand(6) + 1
@@ -10,6 +9,4 @@ def run_guessing_game
     else
         puts "Sorry! The computer guessed #{num}."
     end
-    
-
 end
